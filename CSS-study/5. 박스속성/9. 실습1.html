@@ -13,23 +13,28 @@
         }
         .main{
             width: 550px;
-            border: 5px double #abcdef;
+            border: 3px double #123456;
+            border-width: 10px;
+            margin: 50px auto 0;
         }
         .main h1{
             text-align: center;
             background: #abcdef;
             border-bottom: 3px solid #123456;
             padding: 15px;
-            font-weight: 1000;
+            font-size: 1.5em;
+            font-weight: 700;
+            letter-spacing: 10px;
         }
-        .main .content{
-            border-bottom: 1px solid #abcdef;
-            padding: 7px;
+        .main .content{   
+            padding: 10px;
+        }
+        .main .content:nth-child(2){
+            border-bottom: 3px dotted #123456;
         }
         .main .content h2{
-            
-            font-size: 15px;
-            font-weight: 800;
+            font-size: 1.2em;
+            font-weight: 700;
         }
         .main .content p{
             padding-top: 5px;
@@ -40,7 +45,7 @@
 </head>
 <body>
     <section class="main">
-        <h1>속 담 풀 이</h1>
+        <h1>속담풀이</h1>
         <div class="content">
             <h2>말 한마디에 천냥 빚진다.</h2>
             <p>생각해보지 않고 나오는 대로 말하다가 실수하면 상대의 마음에 아픔을 남기게 된다.</p>
