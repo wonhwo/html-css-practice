@@ -10,3 +10,4 @@
 6. Rainbow Bracket - 괄호 색깔을 다양화해줍니다.
 7. Live Server - 실시간으로 코드 변화를 감지하는 서버를 제공합니다.
 8. Git Lens - Git Kraken을 vscode 내부에서 사용할 수 있게 합니다.
+잔디 심심
