@@ -12,3 +12,25 @@ a{
     display: block;
     clear: both;
 }
+.btn{
+    background: #fff;
+    color: #333;
+    font:inherit;
+    font-weight: 700;
+    border-radius: 7px;
+    border: 2px solid #ededed;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #666;
+    color: #fff;
+}
+.btn-red{
+    background: #d40707;
+    color: #fff;
+}
+.btn-red:hover{
+    background: #fff;
+    color: #ff2e2e;
+}
