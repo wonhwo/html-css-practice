@@ -122,3 +122,61 @@ body{
 #plans .plan-wrapper .plan .btn-group{
     margin: 20px 0;
 }
+/* key features style */
+#key-features{
+    background:#ff1b68;
+    padding: 20px;
+}
+#key-features .section-title{
+    font-weight: 700;
+    color: inherit;
+    text-align: center;
+    padding: 20px;
+}
+#key-features .key-feature__list{
+    display: flex;
+    justify-content: center;
+
+}
+#key-features .key-feature__list .key-feature{
+    flex: 1;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#key-features .key-feature__list .key-feature .key-feature__description{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#key-features .key-feature__list .key-feature .key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #424242;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.main-footer{
+    background: #000;
+    padding: 20px;
+}
+.main-footer .main-footer__links{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.main-footer .main-footer__links .main-footer__link {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
