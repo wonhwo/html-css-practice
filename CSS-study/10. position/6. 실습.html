@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 300px;
+            height: 200px;
+            background: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border: 2px solid gray;
+        }
+        .main .title{
+            position: relative;
+            left: -50px;
+            top: 20px;
+            color: green;
+        }
+        .main .content{
+            padding-bottom: 20px;
+            color: grey;
+        }
+        .main .더보기{
+            position: absolute;
+            top: 40px;
+            right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h2 class="title">동물병원 24시</h2>
+        <p class="content">밥 먹이는 시간 지킬 것<br>
+            길고양이 주사 맞히기<br>
+            <a href="#">눈 아픈 동물 목에 깔때기 씌우기</a><br>
+            매일 목욕 시킬 것<br>
+            이름없는 애들 이름 짓지말기
+        </p>
+        <a href="#" class="더보기">더보기</a>
+    </div>
+</body>
+</html>
