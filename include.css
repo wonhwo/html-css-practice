@@ -6,6 +6,8 @@
     padding: 30px 16px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 .main-header h1{
     /* background: yellowgreen; */
