@@ -32,7 +32,7 @@ header .inner-header .logo img{
 header .inner-header .intro-text{
     /* border: 2px solid violet; */
     flex: 4;
-    border-width: 700px;
+    font-weight: 700;
     font-size: 1.3em;
     text-transform: uppercase;
 }
@@ -53,5 +53,33 @@ header .inner-header .menu-open .lnr-menu{
     margin-left: 15px;
 }
 header .gnb{
-    display: none;
+    background: #000;
+    color: gray;
+    font-weight: 700;
+    font-size: 40px;
+    position: fixed;
+    height: 100vh;
+    right: 0;top: 0;
+    padding: 70px 100px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    right: -100%;
+    top: 0;
+
+    transition: 0.8s;
+}
+header .gnb.open{
+    right: 0;
+}
+header .gnb .close{
+    color: white;
+    margin-left: 100px;
+}
+header .gnb ul{
+    line-height: 1.7;
+}
+header .gnb ul li:hover,
+header .gnb ul li:active{
+    color: white;
 }
