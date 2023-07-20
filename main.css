@@ -4,6 +4,31 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /* choose plan style */
+#product-overview{
+    background: url(../../idol.jpg) no-repeat center/cover;
+    height: calc(100vh - 97px);
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#product-overview h2{
+    font-size: 58px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.95);
+    animation: drop 2s infinite;
+}
+@keyframes drop{
+    0%{
+        transform: translate(0,-1000px);
+    }
+    100%{
+        transform: translate(0,0);
+
+    }
+}
 #plans{
     /* background: orange; */
     margin: 100px auto;
